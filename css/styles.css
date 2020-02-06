@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-control {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.etch-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: solid 5px #223322;
+}
+
+.etch-box {
+    /* border: solid 1px black; */
+}
