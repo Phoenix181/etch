@@ -25,6 +25,10 @@ body {
     border: solid 5px #223322;
 }
 
-.etch-box {
-    /* border: solid 1px black; */
+.hovered {
+    background-color: #000;
+}
+
+.unhovered {
+    background-color: #fff;
 }
